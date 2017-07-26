@@ -51,6 +51,51 @@ public class Sort {
         }
     }
 
+    /**
+     * 冒泡排序 多躺比较和交换 消耗性能
+     * @param array
+     */
+    public static void bubbleSort(int[] array)
+    {
+        if(array == null || array.length <= 1) {
+            throw new IllegalArgumentException("传入数组参数异常。。。");
+        }
+
+        //总共循环arra.length - 1次
+        for(int i = 1; i < array.length; i++)
+        {
+            //每一次循环确定一个最大的数
+            for(int j = 0; j < array.length - i; j++)
+            {
+              if(array[j] > array[j+1])
+              {
+                  int temp = array[j+1]; //临时变量
+                  array[j+1] = array[j];
+                  array[j] = temp;
+              }
+            }
+        }
+    }
+
+
+   public static void selectSort(int[] array)
+   {
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static String showArrayElements(int[] array)
     {
         if(array == null || array.length == 0)
@@ -63,13 +108,16 @@ public class Sort {
     }
 
 
+
     public static void main(String[] args)
     {
-        int[] array = {11,24,43,545,43,4,35,4,54,3423,23,4,33434,432,343,23,43,4,3423423,43,43123};
-//        insertSort(array);
+        int[] array = {12121,32,32,3,23,2,1,32,32,3,1,32,4343,32,32,32,43,4,5,35,310,9,8,7,6,5,4,3,2,1};
+
+//        insertSort(array);R
 //        System.out.println(showArrayElements(array));
 
-        shellSort(array);
+//        shellSort(array);
+       bubbleSort(array);
         System.out.println(showArrayElements(array));
 
     }
