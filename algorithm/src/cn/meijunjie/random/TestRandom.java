@@ -26,6 +26,15 @@ public class TestRandom {
         System.out.println(a.equals(b));
 
         System.out.println(Math.PI);
+
+        char c = 32;
+
+        String s = Integer.toBinaryString(c);
+        System.out.println(s);
+
+
+
+
     }
 
 
