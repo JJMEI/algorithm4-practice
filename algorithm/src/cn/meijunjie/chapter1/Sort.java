@@ -117,8 +117,8 @@ public class Sort {
 //        insertSort(array);R
 //        System.out.println(showArrayElements(array));
 
-//        shellSort(array);
-       bubbleSort(array);
+        shellSort(array);
+//       bubbleSort(array);
         System.out.println(showArrayElements(array));
 
     }
