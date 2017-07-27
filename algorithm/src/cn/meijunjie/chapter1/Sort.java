@@ -77,11 +77,12 @@ public class Sort {
         }
     }
 
+    public static void quickSort(int[] array)
+    {
 
-   public static void selectSort(int[] array)
-   {
 
-   }
+    }
+
 
 
 
