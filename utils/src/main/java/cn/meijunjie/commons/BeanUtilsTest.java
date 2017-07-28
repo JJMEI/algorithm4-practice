@@ -24,5 +24,7 @@ public class BeanUtilsTest {
        String[] beanProperties = BeanUtils.getArrayProperty(user,"username");
        for(String s : beanProperties)
            System.out.print(s);
+
+
    }
 }

@@ -1,6 +1,7 @@
 package cn.meijunjie.string;
 
 import java.util.Arrays;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class StringTest {
@@ -35,7 +36,34 @@ public class StringTest {
         System.out.println(Arrays.toString(sentence.split("\\w")));
         //java正则表达式 java.util.regex    Pattern Matcher 两个最重要的类
 
-        Pattern pattern = "\\w{3,10}@\\w{3}\\.(com|cn|org|edu){1}";
+        String regex = "\\w{3,10}@\\w{3}\\.(com|cn|org|edu){1}";
+        Pattern pattern = Pattern.compile(regex);
+        System.out.println(Pattern.matches(regex,"www.baidu.com"));
+
+        Matcher matcher = pattern.matcher("meijunjie@163.com，asd，大厦，大厦，的，阿斯达，算法，额，发，f");
+
+        String s1 = matcher.replaceAll("大厦");
+        System.out.println(s1);
+
+        if(matcher.find())
+        {
+            System.out.println("get it");
+        }
+
+        Matcher matcher1 = Pattern.compile("abc+").matcher("abc abcc ab ads dasd as adsdasda da");
+
+        System.out.println(matcher1.groupCount());
+        while(matcher1.find())
+        {
+            System.out.println(matcher1.group());
+        }
+
+        int i = 0;
+        while(matcher1.find(i)) // i 表示搜索的 start search index
+        {
+            System.out.println(matcher1.group() + "  --> " + i);
+            i++;
+        }
 
 
 
