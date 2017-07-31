@@ -10,20 +10,29 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPatch;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.protocol.HttpClientContext;
 import org.apache.http.client.utils.URIBuilder;
+import org.apache.http.conn.ConnectionRequest;
+import org.apache.http.conn.HttpClientConnectionManager;
+import org.apache.http.conn.routing.HttpRoute;
 import org.apache.http.entity.BufferedHttpEntity;
 import org.apache.http.entity.InputStreamEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.BasicHttpClientConnectionManager;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.protocol.HttpContext;
 import org.apache.http.util.EntityUtils;
 import org.junit.Test;
+
 
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -276,4 +285,110 @@ public class HttpClientTest {
 //    }
 
 
+    @Test
+    public void testHttpConnectionMannager() throws  Exception
+    {
+        HttpClientContext httpClientContext = HttpClientContext.create();
+        HttpClientConnectionManager httpClientConnectionManager =
+                new BasicHttpClientConnectionManager();
+        HttpRoute httpRoute =
+                new HttpRoute(new HttpHost("www.yeetrack.com",80));
+
+        ConnectionRequest connectionRequest =
+                httpClientConnectionManager.requestConnection(httpRoute,null);
+
+        HttpClientConnection clientConnection = connectionRequest.get(10, TimeUnit.SECONDS);
+        try
+        {
+            if(!clientConnection.isOpen())
+            {
+                httpClientConnectionManager.connect(clientConnection,httpRoute,1000,httpClientContext);
+                httpClientConnectionManager.routeComplete(clientConnection,httpRoute,httpClientContext);
+                System.out.println("............");
+            }
+        }finally {
+            httpClientConnectionManager.releaseConnection(clientConnection,null,1,TimeUnit.MINUTES);
+        }
+    }
+
+    @Test
+    public void testPoolHttpConnectionMannager() throws  Exception{
+        PoolingHttpClientConnectionManager cm = new PoolingHttpClientConnectionManager();
+
+        cm.setMaxTotal(200);
+        cm.setDefaultMaxPerRoute(20);
+//
+//        HttpHost localhost = new HttpHost("www.yeetrack.com", 80);
+//
+//        cm.setMaxPerRoute(new HttpRoute(localhost), 80);
+//
+        CloseableHttpClient httpClient = HttpClients.custom().setConnectionManager(cm).build();
+
+        String[] urisToGet = {"http://www.le.com", "http://www.baidu.com", "http://www.google.com","http://www.3535dy.com/vod-type-id-3-wd--letter--year-0-area--order-hits-p-1.html","https://item.jd.com/2847866.html#comment"};
+
+        GetThread[] threads = new GetThread[urisToGet.length];
+
+        for (int i = 0; i < threads.length; i++)
+        {
+            HttpGet httpGet = new HttpGet(urisToGet[i]);
+            threads[i] = new GetThread(httpClient,httpGet);
+        }
+
+        for (int j = 0; j < threads.length; j++)
+        {
+            threads[j].start();
+            Thread.sleep(1000);
+        }
+
+
+    }
+
+   class GetThread extends  Thread
+    {
+        private final CloseableHttpClient httpClient;
+        private final HttpContext httpContext;
+        private final  HttpGet httpGet;
+
+        public GetThread(CloseableHttpClient httpClient, HttpGet httpGet)
+        {
+            this.httpClient = httpClient;
+            this.httpContext = HttpClientContext.create();
+            this.httpGet = httpGet;
+        }
+
+        @Override
+        public void run()
+        {
+            try
+            {
+                CloseableHttpResponse httpResponse = httpClient.execute(httpGet);
+
+                try{
+                    HttpEntity httpEntity = httpResponse.getEntity();
+                    System.out.println("we get it");
+                    if(httpEntity != null)
+                    {
+                        InputStream inputStream = httpEntity.getContent();
+
+                        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+
+                        String line = new String();
+                        while((line = bufferedReader.readLine()) != null)
+                        {
+                            System.out.println(Thread.currentThread() + " 线程正在输出 "+line);
+                        }
+                    }
+                }finally {
+                    httpResponse.close();
+                }
+            }catch (ClientProtocolException e)
+            {
+                e.printStackTrace();
+                System.out.println("线程池发生异常。。。");
+            }catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+        }
+    }
 }
