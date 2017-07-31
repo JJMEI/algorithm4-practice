@@ -1,5 +1,6 @@
 package cn.meijunjie.commons;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -9,9 +10,13 @@ import lombok.ToString;
 @ToString
 public class User
 {
-
+    @JSONField(name = "USERNAME")
     private String username;
+
+    @JSONField(name = "PASSWORD")
     private  String password;
+
+    @JSONField(name = "AGE")
     private int age;
 
     public String getUsername() {
@@ -36,5 +41,14 @@ public class User
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
