@@ -1,31 +1,63 @@
 package cn.meijunjie.innerclass;
 
-import javax.print.attribute.standard.Destination;
+interface  Counter
+{
+    int next();
+}
 
-public class TestLocalInnerClass {
+public class TestLocalInnerClass
+{
+    private int count = 0;
 
-    public Destination destination(String s)
+    Counter getCountter(final String name)
     {
-        class PDestination implements Destination{
-            private String label;
 
-            private  PDestination(String whereTo)
+        //a local inner class
+        class LocalCounter implements Counter
+        {
+
+            public LocalCounter()
             {
-                label = whereTo;
+                System.out.println("LocalCounter()");
             }
-
-            public String readLabel()
-            {
-                return  label;
+            public int next() {
+                System.out.println(name);
+                return count++;
             }
         }
 
-        return  new PDestination(s);
+        return  new LocalCounter();
+    }
+
+    Counter getCounter2(final String name)
+    {
+        return new Counter() {
+
+            {
+                System.out.println("Counter()");
+            }
+
+            public int next() {
+                System.out.println("name");
+                return count++;
+            }
+        };
     }
 
     public static void main(String[] args)
     {
-        TestLocalInnerClass testLocalInnerClass = new TestLocalInnerClass();
-        Destination destination = testLocalInnerClass.destination("Tasmanid");
+        TestLocalInnerClass lic = new TestLocalInnerClass();
+        Counter c1 = lic.getCountter("Local inner"), c2 = lic.getCounter2("Anonymous inner");
+
+        for(int i=0;i<5;i++)
+        {
+            System.out.println(c1.next());
+        }
+
+        for(int i=0;i<5;i++)
+        {
+            System.out.println(c2.next());
+        }
+
     }
 }
