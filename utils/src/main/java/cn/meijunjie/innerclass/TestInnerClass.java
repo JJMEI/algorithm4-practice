@@ -3,11 +3,19 @@ package cn.meijunjie.innerclass;
 public class TestInnerClass {
 
     private String hello = new String();
+    private static String string = "I fuck you";
 
     public String getHello() {
         return hello;
     }
 
+    static  class testStaticInnerClass
+    {
+        public void test()
+        {
+            System.out.println(string);
+        }
+    }
     class User
     {
         private String username;
