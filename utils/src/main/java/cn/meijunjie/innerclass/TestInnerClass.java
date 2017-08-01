@@ -17,6 +17,11 @@ public class TestInnerClass {
             hello = "I can get Outter's field";
         }
 
+        public TestInnerClass getTestInnerClass()
+        {
+            return TestInnerClass.this;
+        }
+
         public String getUsername() {
             return username;
         }
@@ -30,7 +35,7 @@ public class TestInnerClass {
         }
 
         public void setPassword(String password) {
-            this.password = password;l's
+            this.password = password;
         }
 
 
@@ -55,7 +60,10 @@ public class TestInnerClass {
 
         TestInnerClass innerClass = new TestInnerClass();
 
-        TestInnerClass.User user = innerClass.getUser();
+//        TestInnerClass.User user = innerClass.getUser();
+
+        TestInnerClass.User user = innerClass.new User();
+
         user.setPassword("3232");
         user.setUsername("dasdasd");
         user.setHello();
