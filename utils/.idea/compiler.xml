@@ -15,4 +15,10 @@
       <module name="utils" target="1.5" />
     </bytecodeTargetLevel>
   </component>
+  <component name="EclipseCompilerSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+  </component>
+  <component name="JavacSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+  </component>
 </project>
