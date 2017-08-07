@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <bean id="greetingAdvice" class="test.aop.GreetingBeforeAdvice"></bean>
     <bean id="target" class="test.aop.NaiveWaiter"></bean>
@@ -13,4 +13,39 @@
         <property name="targetName" value="target">
         </property>
     </bean>
+
+    <!-- proxy-target-class 设为true 则使用cglib进行代理对象的生成-->
+    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+
+    <!--<bean id="waiter2" class="test.aop.NaiveWaiter"></bean>-->
+    <!--<bean class="test.aop.PreGreetingAspect"></bean>-->
+
+    <bean id="waiter3" class="test.aop.NaiveWaiter"></bean>
+    <bean class="test.aop.EnableSellerAspect"></bean>
+
+    <bean id="greetingBeforeAdvice" class="test.aop.GreetingBeforeAdvice"></bean>
+
+    <bean id="waiter4" class="test.aop.NaiveWaiter"></bean>
+
+    <!--aop config  开启cglib代理模式-->
+    <aop:config proxy-target-class="true">
+
+        <!-- 定义切点  一般单独定义pointcut时 需要将它放在config的最前端-->
+        <aop:pointcut id="pointcut" expression="execution(* test.aop.Waiter.*(..)"></aop:pointcut>
+
+        <!-- 定义切面，切面本质上也是一个bean
+
+            <aop:before pointcut-ref="pointcut" method="before"></aop:before>
+            <aop:after pointcut-ref="" method=""></aop:after>
+            <aop:after-throwing pointcut-ref="" method=""></aop:after-throwing>
+            <aop:around pointcut-ref="" method=""></aop:around>
+
+        -->
+        <aop:aspect ref="greetingBeforeAdvice">
+            <aop:before pointcut-ref="pointcut" method="before"></aop:before>
+
+        </aop:aspect>
+
+    </aop:config>
+
 </beans>
