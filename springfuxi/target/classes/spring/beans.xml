@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+        <bean id="user" class="cn.meijunjie.po.User">
+            <property name="password" value="12134"></property>
+            <property name="lastIp" value="127.0.0.1"></property>
+            <property name="userName" value="meijunjie"></property>
+        </bean>
+
+        <bean id="user2" class="test.pojo.User">
+
+            <property name="list">
+                <list>
+                    <value>看报</value>
+                    <value>喝茶</value>
+                    <value>爽歪歪</value>
+                </list>
+            </property>
+
+            <property name="hashMap">
+                <map>
+                    <entry>
+                        <key><value>Address</value></key>
+                        <value>国美第一城</value>
+                    </entry>
+
+                    <entry>
+                        <key><value>Tel</value></key>
+                        <value>13011028787</value>
+                    </entry>
+                </map>
+            </property>
+        </bean>
+
+        <util:list id="expressionList" list-class="java.util.LinkedList" scope="singleton">
+            <value>hello</value>
+            <value>I love you</value>
+        </util:list>
+
+        <util:set id="favoriteSet" set-class="java.util.HashSet">
+            <value>看书</value>
+            <value>打游戏</value>
+        </util:set>
+
+
+</beans>
