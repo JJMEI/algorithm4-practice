@@ -23,4 +23,34 @@
     <bean id="waiter3" class="test.aop.NaiveWaiter"></bean>
     <bean class="test.aop.EnableSellerAspect"></bean>
 
+    <bean id="greetingBeforeAdvice" class="test.aop.GreetingBeforeAdvice"></bean>
+
+    <bean id="waiter4" class="test.aop.NaiveWaiter"></bean>
+
+    <!--aop config  开启cglib代理模式-->
+    <aop:config proxy-target-class="true">
+
+        <!-- 定义切点  一般单独定义pointcut时 需要将它放在config的最前端-->
+        <aop:pointcut id="pointcut" expression="execution(* test.aop.Waiter.*(..)"></aop:pointcut>
+
+        <!-- 定义切面，切面本质上也是一个bean
+
+            <aop:before pointcut-ref="pointcut" method="before"></aop:before>
+            <!--<aop:after pointcut-ref="" method=""></aop:after>-->
+            <!--<aop:after-throwing pointcut-ref="" method="" ></aop:after-throwing>-->
+            <!--<aop:around pointcut-ref="" method=""></aop:around>-->
+
+            <!--<aop:declare-parents types-matching="" implement-interface="" default-impl="" delegate-ref=""/>-->
+
+        -->
+        <aop:aspect ref="greetingBeforeAdvice">
+            <aop:before pointcut-ref="pointcut" method="before"></aop:before>
+            <!--  returning属性用于绑定连接点的返回值，arg-names属性用于绑定连接点的参数值-->
+            <!--<aop:after-returning method="" pointcut-ref="" arg-names="" returning=""></aop:after-returning>-->
+            <!-- -->
+            <!--<aop:after-throwing method="" arg-names="" throwing="" pointcut-ref="" pointcut=""></aop:after-throwing>-->
+        </aop:aspect>
+
+    </aop:config>
+
 </beans>
