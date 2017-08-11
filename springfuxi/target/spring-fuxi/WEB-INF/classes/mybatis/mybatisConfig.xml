@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <setting name="lazyLoadingEnable" value="false"/>
+    </settings>
+
+    <typeAliases>
+        <typeAlias alias="User" type="test.pojo.User"></typeAlias>
+    </typeAliases>
+
+    <mappers>
+        <mapper resource="/mybatis/User.xml"></mapper>
+    </mappers>
+</configuration>

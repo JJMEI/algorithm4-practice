@@ -13,6 +13,6 @@
     <title>景区后台管理主页面</title>
 </head>
 <body>
-        ${user.userName } ,欢迎您进入景区后台管理！
+        ${ user.userName } ,欢迎您进入景区后台管理！
 </body>
 </html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-lazy-init="false">
+
+    <!--１在<Beans>中不能够设置default-lazy-init="true",否则定时任务不触发，如果不明确指明default-lazy-init的值，默认是false -->
+    <!-- ２、在<Beans>中不能够设置default-autowire="byName"的属性，
+            否则后台会报org.springframework.beans.factory.BeanCreationException错误，
+            这样就不能通过Bean名称自动注入，必须通过明确引用注入。-->
+
+      <!-- 配置job任务类-->
+      <bean id="job" class="cn.meijunjie.quartz_spring.AutoTask"></bean>
+
+    <!--Job实例 -->
+      <bean id="quartzLine" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+           <property name="targetObject" ref="job"></property>
+           <property name="targetMethod" value="checkLine"></property>
+      </bean>
+
+    <bean id="quartzClient" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="job"></property>
+        <property name="targetMethod" value="checkClient"></property>
+    </bean>
+
+
+      <!-- 配置触发器-->
+      <bean id="cronQuartzLine" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+           <property name="jobDetail" ref="quartzLine"></property>
+           <property name="cronExpression" value="0/5 * * * * ? *"></property>
+      </bean>
+
+    <bean id="cronQuartzClient" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="quartzClient"></property>
+        <property name="cronExpression" value="0/5 * * * * ? *"></property>
+    </bean>
+
+      <!-- 配置调度器-->
+      <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+            <property name="triggers">
+              <list>
+                <ref bean="cronQuartzLine"></ref><ref bean="cronQuartzClient"></ref>
+              </list>
+            </property>
+      </bean>
+</beans>

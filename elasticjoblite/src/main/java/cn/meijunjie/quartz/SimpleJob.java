@@ -28,15 +28,15 @@ public class SimpleJob implements Job {
 
         System.out.println("SimpleJob says: " + jobKey + " executing at  " + new Date());
 
-//        throw new JobExecutionException("Testing Exception......");
+        throw new JobExecutionException("Testing Exception......");
 
-        System.out.println(context.getJobDetail().getDescription().toString()+"\n");
+//        System.out.println(context.getJobDetail().getDescription().toString()+"\n");
 //        System.out.println(context.getJobDetail().getJobDataMap().get("sayHello"));
 
         //使用JobFactory实现数据的自动“注入”,JobFactory能够实现，主要是注入JobDataMap中的数据，在Job类中设置JobDataMap中的key作为
-        //字段并设置Setter方法
-        System.out.println(sayHello + "\n");
-
-        System.out.println(sayTrigger + "\n");
+//        //字段并设置Setter方法
+//        System.out.println(sayHello + "\n");
+//
+//        System.out.println(sayTrigger + "\n");
     }
 }

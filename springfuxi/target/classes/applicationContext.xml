@@ -37,6 +37,7 @@
         <aop:pointcut id="serviceMethod" expression="execution(* cn.meijunjie.service..*(..))"></aop:pointcut>
         <aop:advisor pointcut-ref="serviceMethod" advice-ref="txAdvice"></aop:advisor>
     </aop:config>
+
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         
         <tx:attributes>

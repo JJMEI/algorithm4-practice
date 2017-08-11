@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-lazy-init="false">
+
+    <!--配置Job任务类 -->
+    <bean id="job" class="cn.meijunjie.quartz_spring.SpringQuartzJob"></bean>
+
+    <!--配置Job实例-->
+    <!--<bean id="jobDetail" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">-->
+        <!--<property name="jobClass" value="cn.meijunjie.quartz_spring.SpringQuartzJob"></property>-->
+    <!--</bean>-->
+    <!--配置触发器 -->
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+       <property name="jobDetail">
+           <bean class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+               <property name="jobClass" value="cn.meijunjie.quartz_spring.SpringQuartzJob"></property>
+           </bean>
+       </property>
+        <property name="cronExpression" value="0/5 * * * * ?"></property>
+    </bean>
+
+    <!-- 配置调度器-->
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTrigger"></ref>
+            </list>
+        </property>
+    </bean>
+</beans>

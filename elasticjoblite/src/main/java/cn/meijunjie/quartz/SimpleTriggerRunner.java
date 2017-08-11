@@ -8,6 +8,7 @@ import static org.quartz.JobBuilder.*;
 import static org.quartz.TriggerBuilder.*;
 import static org.quartz.SimpleScheduleBuilder.*;
 import static org.quartz.CronScheduleBuilder.*;
+import static  org.quartz.DateBuilder.*;
 
 public class SimpleTriggerRunner {
     public static void main(String[] args) throws SchedulerException {
@@ -35,10 +36,13 @@ public class SimpleTriggerRunner {
                 .withIdentity("dummyTriggerName","group1")
                 .withDescription("I am a trigger to decide the time about how to run this job!")
                 .usingJobData("sayTrigger","我是你Trigger爹")
+                .startAt(futureDate(5,IntervalUnit.MINUTE))
                 .withSchedule(
                         simpleSchedule()
                         .withIntervalInSeconds(5).withRepeatCount(10))
                 .build();
+
+
 
         //构建一个Scheduler容器
         Scheduler scheduler = new StdSchedulerFactory().getScheduler();
