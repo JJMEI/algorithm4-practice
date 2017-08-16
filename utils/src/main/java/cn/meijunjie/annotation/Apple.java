@@ -8,7 +8,7 @@ public class Apple {
     @FruitColor(fruitColor = FruitColor.Color.BULE)
     private String appleColor;
 
-    @FruitProdiver(id=1,name="陕西红富士集团"，address = "北京交通大学")
+    @FruitProdiver(id=1,name="陕西红富士集团",address = "北京交通大学")
     private String appleProvider;
 
     public String getAppleName() {

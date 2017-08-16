@@ -12,7 +12,7 @@
     <title>register page</title>
 </head>
 <body>
-    <form action="<c:url value="/createUser.html"/>" method="post">
+    <form action="<c:url value="/Request.html"/>" method="post">
 
         <table>
             <tr>
