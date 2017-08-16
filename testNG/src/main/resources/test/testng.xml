@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testAll" verbose="5">
+    <test name="case1">
+        <classes>
+            <class name="cn.meijunjie.testng.TestConfig"/>
+            <class name="cn.meijunjie.testng.TestNGAnnotationTest"/>
+        </classes>
+    </test>
+</suite>
