@@ -32,7 +32,9 @@ public class Test {
     {
         String proxyName = "ProxyPlay";
 
+        //动态代理中，最核心的一条代码 生成代理类（字节码）
         byte[] data = ProxyGenerator.generateProxyClass(proxyName, new Class[]{Play.class});
+
         FileOutputStream outputStream = null;
         try
         {

@@ -24,7 +24,7 @@
         <slf4j.version>1.7.25</slf4j.version>
         <logback.version>1.2.3</logback.version>
         <!-- 动态代理相关-->
-        <cglib.version>3.1</cglib.version>
+        <cglib.version>3.2.2</cglib.version>
         <!-- Maven 插件-->
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>2.20</maven-surefire-plugin.version>
@@ -93,11 +93,12 @@
             <version>${testing.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium-java.version}</version>
-        </dependency>
+        <!--负载测试 -->
+        <!--<dependency>-->
+            <!--<groupId>org.seleniumhq.selenium</groupId>-->
+            <!--<artifactId>selenium-java</artifactId>-->
+            <!--<version>${selenium-java.version}</version>-->
+        <!--</dependency>-->
 
         <!--***************************************************************************************************-->
 

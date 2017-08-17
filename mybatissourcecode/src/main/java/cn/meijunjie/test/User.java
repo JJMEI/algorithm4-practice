@@ -2,6 +2,7 @@ package cn.meijunjie.test;
 
 import lombok.*;
 
+//java bean
 @Getter
 @Setter
 @AllArgsConstructor
