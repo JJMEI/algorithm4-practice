@@ -23,7 +23,7 @@ public class MapperTest {
         User user  = mapper.getUserById(1001);
 
         log.info("ID is {}",user.getId());
-        log.info("Name is {}",user.getUserName());
+        log.info("Name is {}",user.getUsername());
         log.info("Password is {}",user.getPassword());
 
         log.info(mapper.toString());

@@ -3,6 +3,7 @@ package cn.meijunjie.test;
 import lombok.*;
 
 //java bean
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -11,6 +12,6 @@ import lombok.*;
 public class User {
 
     private Integer id;
-    private String userName;
+    private String username;
     private String password;
 }

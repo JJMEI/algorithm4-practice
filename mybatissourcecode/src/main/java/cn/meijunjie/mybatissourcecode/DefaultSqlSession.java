@@ -48,8 +48,8 @@ import org.apache.ibatis.session.SqlSession;
  */
 public class DefaultSqlSession implements SqlSession {
 
-    private Configuration configuration;
-    private Executor executor;
+    private Configuration configuration;  //统一配置对象 包括MyBatis环境配置 和 Mapper.xml文件配置
+    private Executor executor;    //执行器
 
     private boolean autoCommit;
     private boolean dirty;
@@ -74,7 +74,7 @@ public class DefaultSqlSession implements SqlSession {
     @Override
     public <T> T selectOne(String statement, Object parameter) {
         // Popular vote was to return null on 0 results and throw exception on too many.
-        List<T> list = this.<T>selectList(statement, parameter);
+        List<T> list = this.<T>selectList(statement, parameter); //内部还是调用selectList实现
         if (list.size() == 1) {
             return list.get(0);
         } else if (list.size() > 1) {
@@ -95,7 +95,8 @@ public class DefaultSqlSession implements SqlSession {
     }
 
     @Override
-    public <K, V> Map<K, V> selectMap(String statement, Object parameter, String mapKey, RowBounds rowBounds) {
+    public <K, V> Map<K, V> selectMap(String statement, Object parameter, String mapKey, RowBounds rowBounds)
+    {
         final List<? extends V> list = selectList(statement, parameter, rowBounds);
         final DefaultMapResultHandler<K, V> mapResultHandler = new DefaultMapResultHandler<K, V>(mapKey,
                 configuration.getObjectFactory(), configuration.getObjectWrapperFactory(), configuration.getReflectorFactory());
@@ -144,8 +145,8 @@ public class DefaultSqlSession implements SqlSession {
     @Override
     public <E> List<E> selectList(String statement, Object parameter, RowBounds rowBounds) {
         try {
-            MappedStatement ms = configuration.getMappedStatement(statement);
-            return executor.query(ms, wrapCollection(parameter), rowBounds, Executor.NO_RESULT_HANDLER);
+            MappedStatement ms = configuration.getMappedStatement(statement); //从Configuration对象中 获取映射Statement
+            return executor.query(ms, wrapCollection(parameter), rowBounds, Executor.NO_RESULT_HANDLER); //调用Executor执行
         } catch (Exception e) {
             throw ExceptionFactory.wrapException("Error querying database.  Cause: " + e, e);
         } finally {
