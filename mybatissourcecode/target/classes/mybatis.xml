@@ -11,6 +11,8 @@
 
     <settings>
         <setting name="defaultExecutorType" value="REUSE"/>
+        <!-- 自动将数据库映射成驼峰标标志-->
+        <!--<setting name="mapUnderscoreToCamelCase" value="true"/>-->
     </settings>
 
     <typeAliases>
@@ -44,5 +46,7 @@
     <!--<databaseIdProvider type=""/>-->
     <mappers>
         <mapper resource="mybatis/UserMapper.xml"/>
+        <mapper resource="mybatis/ClassMapper.xml"/>
+        <mapper class="cn.meijunjie.test.BoardMapper"/>
     </mappers>
 </configuration>
