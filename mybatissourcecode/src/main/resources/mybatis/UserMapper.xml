@@ -11,10 +11,28 @@
         <!--<parameter property="username" jdbcType="java.lang.String"/>-->
         <!--<parameter property="password" jdbcType="java.lang.String"/>-->
     <!--</parameterMap>-->
+
+    <!--Sql片段 -->
+    <sql id="userProperties">
+        select
+                id,username,password
+        from
+                 user
+    </sql>
+
     <select id="getUserById" parameterType="java.lang.Integer" resultType="User">
         SELECT * FROM USER WHERE id = #{id}
     </select>
 
+    <select id="countAll" resultType="int">
+        select count(1) from(
+        <include refid="userProperties"/>
+        ) tmp
+    </select>
+
+    <select id="findAll" resultType="User">
+        SELECT * from user
+    </select>
 
     <insert id="insertUser"  parameterType="User" useGeneratedKeys="true" keyProperty="id">
         INSERT  INTO USER(id,username,password) VALUES(#{id},#{username},#{password})
@@ -27,6 +45,14 @@
         </foreach>
 
     </insert>
+
+    <update id="updateUser" parameterType="User" >
+        update user set username=#{username},password=#{password} where id=#{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete from user where id=#{id}
+    </delete>
 
     <!--<insert id="insertUser"  parameterType="User" >-->
         <!--<selectKey keyProperty="id" resultType="int" order="BEFORE">-->

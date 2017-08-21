@@ -15,6 +15,7 @@
         <selenium-java.version>3.0.1</selenium-java.version>
         <!-- 数据库相关-->
         <mybatis.version>3.4.4</mybatis.version>
+        <pagerhelper.version>4.1.6</pagerhelper.version>
         <mysql-connector.version>5.1.42</mysql-connector.version>
         <druid.version>1.0.23</druid.version>
         <mybatis-spring.version>1.3.1</mybatis-spring.version>
@@ -62,6 +63,13 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>${mybatis.version}</version>
+        </dependency>
+
+        <!--MyBatis分页插件 -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>${pagerhelper.version}</version>
         </dependency>
 
         <!--MySQL驱动 -->

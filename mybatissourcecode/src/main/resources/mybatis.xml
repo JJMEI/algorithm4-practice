@@ -23,9 +23,11 @@
 
     <!--<objectWrapperFactory type=""/>-->
 
-    <!--<plugins>-->
-        <!--<plugin interceptor=""></plugin>-->
-    <!--</plugins>-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <property name="dialect" value="mysql"/>
+        </plugin>
+    </plugins>
 
     <environments default="development">
         <environment id="development">

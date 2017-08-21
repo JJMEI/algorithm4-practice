@@ -19,6 +19,9 @@ public class XMLConfigTest {
         SqlSession sqlSession = sqlSessionFactory.openSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+
+        log.info("总数为： " + mapper.countAll());
+
         User user = mapper.getUserById(1);
         log.info(user.toString());
 
