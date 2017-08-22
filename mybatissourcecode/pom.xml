@@ -19,6 +19,8 @@
         <mysql-connector.version>5.1.42</mysql-connector.version>
         <druid.version>1.0.23</druid.version>
         <mybatis-spring.version>1.3.1</mybatis-spring.version>
+        <ehcache.version>2.6.5</ehcache.version>
+        <mybatis-ehcache.version>1.1.0</mybatis-ehcache.version>
         <!--Bean相关-->
         <lombok.version>1.14.8</lombok.version>
         <!-- 日志相关-->
@@ -51,6 +53,31 @@
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
         </dependency>
@@ -70,6 +97,20 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
             <version>${pagerhelper.version}</version>
+        </dependency>
+
+        <!-- 第三方缓存框架ehcahe-->
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache-core</artifactId>
+            <version>${ehcache.version}</version>
+        </dependency>
+
+        <!--MyBatis-Ehcache整合包-->
+        <dependency>
+            <groupId>org.mybatis.caches</groupId>
+            <artifactId>mybatis-ehcache</artifactId>
+            <version>${mybatis-ehcache.version}</version>
         </dependency>
 
         <!--MySQL驱动 -->

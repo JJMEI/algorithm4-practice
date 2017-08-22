@@ -44,9 +44,35 @@ public class MyBatisTest {
     @Test
     public void getUserByIdTest()
     {
+        //10:24:24.541 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+        //10:24:24.903 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1209702763.
+        //10:24:24.904 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@481a996b]
+        //10:24:24.906 [main] DEBUG cn.meijunjie.test.UserMapper.getUserById - ==>  Preparing: SELECT * FROM USER WHERE id = ?
+        //10:24:24.942 [main] DEBUG cn.meijunjie.test.UserMapper.getUserById - ==> Parameters: 222(Integer)
+        //10:24:24.957 [main] DEBUG cn.meijunjie.test.UserMapper.getUserById - <==      Total: 1
+        //10:24:24.958 [main] INFO cn.meijunjie.test.MyBatisTest - 获取到的user...User(id=222, username=dasds198, password=dsadsdasd198)
+        //10:24:24.958 [main] INFO cn.meijunjie.test.MyBatisTest - 获取到的user...User(id=222, username=dasds198, password=dsadsdasd198)
+
+        //一级缓存是默认开启的，必须是同一个session下,一旦
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         User user = mapper.getUserById(222);
         log.info("获取到的user..." + user.toString());
+
+        //10:36:23.784 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@27ce24aa]
+        //10:36:23.787 [main] DEBUG cn.meijunjie.test.UserMapper.getUserById - ==>  Preparing: SELECT * FROM USER WHERE id = ?
+        //10:36:23.823 [main] DEBUG cn.meijunjie.test.UserMapper.getUserById - ==> Parameters: 222(Integer)
+        //10:36:23.839 [main] DEBUG cn.meijunjie.test.UserMapper.getUserById - <==      Total: 1
+        //10:36:23.840 [main] INFO cn.meijunjie.test.MyBatisTest - 获取到的user...User(id=222, username=dasds198, password=dsadsdasd198)
+        //10:36:23.840 [main] DEBUG cn.meijunjie.test.UserMapper.getUserById - ==> Parameters: 222(Integer)
+        //10:36:23.841 [main] DEBUG cn.meijunjie.test.UserMapper.getUserById - <==      Total: 1
+        //10:36:23.841 [main] INFO cn.meijunjie.test.MyBatisTest - 获取到的user...User(id=222, username=dasds198, password=dsadsdasd198)
+        sqlSession.clearCache(); //清除SqlSession缓存
+        //增删改操作都会清除缓存
+
+
+        //清除缓存后，会执行两次查询，而不是直接从数据库中取
+        User user1 = mapper.getUserById(222);
+        log.info("获取到的user..." + user1.toString());
     }
 
     @Test

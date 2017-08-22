@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/tx
+                           http://www.springframework.org/schema/tx/spring-tx.xsd
+                           http://mybatis.org/schema/mybatis-spring
+                           http://mybatis.org/schema/mybatis-spring.xsd">
+
+
+    <!--基于注解的事务，注解要主要控制在Service层-->
+    <tx:annotation-driven  transaction-manager="dataSourceTransactionManager" proxy-target-class="true"/>
+    <mybatis:scan base-package="cn.meijunjie.test" factory-ref="sqlSessionFactory"/>
+
+
+    <!--加载DB配置文件-->
+    <context:annotation-config/>
+    <context:component-scan base-package="cn.meijunjie.test.service"/>
+
+
+    <!--数据源-->
+    <bean id="datasource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+        <property name="driver" value="${driver}"/>
+        <property name="url" value="${url}"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+    </bean>
+
+    <!--MyBatis-Spring 中,SqlSessionFactoryBean 是用于创建 SqlSessionFactory的 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--数据源 -->
+        <property name="dataSource" ref="datasource"/>
+        <!--使用MyBatis的配置-->
+        <property name="configLocation" value="classpath*:mybatis-config.xml"/>
+        <!--映射文件,基于XML-->
+        <property name="mapperLocations" value="classpath*:mybatis/*Mapper.xml"/>
+
+        <!--用于检测 parameterMap resultMap中潜在的错误-->
+        <property name="failFast" value="true"/>
+
+        <!--批量处理别名-->
+        <property name="typeAliasesPackage" value="cn.meijunjie.test"/>
+    </bean>
+
+    <!-- Mybatis异常转换-->
+    <bean id="myBatisExceptionTranslator" class="org.mybatis.spring.MyBatisExceptionTranslator">
+        <constructor-arg name="dataSource" ref="datasource"/>
+        <constructor-arg name="exceptionTranslatorLazyInit" value="true"/>
+    </bean>
+   
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
+        <constructor-arg name="executorType" value="REUSE"/>
+        <constructor-arg name="exceptionTranslator" ref="myBatisExceptionTranslator"/>
+    </bean>
+
+    <!--事务管理-->
+    <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="datasource"/>
+    </bean>
+</beans>

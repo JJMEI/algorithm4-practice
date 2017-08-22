@@ -2,6 +2,8 @@ package cn.meijunjie.test;
 
 import lombok.*;
 
+import java.io.Serializable;
+
 //java bean
 
 @Getter
@@ -9,7 +11,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 @NoArgsConstructor
-public class User {
+public class User implements Serializable{
 
     private Integer id;
     private String username;

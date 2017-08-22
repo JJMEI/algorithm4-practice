@@ -2,7 +2,11 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="MyBatis Spring" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/MyBatis-Spring.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
@@ -22,10 +26,17 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.3.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:4.3.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-test:4.3.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
     <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper:4.1.6" level="project" />
     <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache-core:2.6.5" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis.caches:mybatis-ehcache:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.42" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.0.23" level="project" />
     <orderEntry type="module-library">

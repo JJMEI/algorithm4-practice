@@ -13,6 +13,7 @@
         <setting name="defaultExecutorType" value="REUSE"/>
         <!-- 自动将数据库映射成驼峰标标志-->
         <!--<setting name="mapUnderscoreToCamelCase" value="true"/>-->
+        <setting name="cacheEnabled" value="true"/>
     </settings>
 
     <typeAliases>

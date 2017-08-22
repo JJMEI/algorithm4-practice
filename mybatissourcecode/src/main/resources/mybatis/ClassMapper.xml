@@ -5,7 +5,7 @@
 <mapper namespace="cn.meijunjie.test.ClassMapper">
 
 
-
+    <!--一次查询-->
    <select id="getClass" parameterType="int" resultMap="classResultMap">
        SELECT * FROM class c, teacher t where c.teacher_id=t.t_id and c.c_id = #{id}
    </select>
