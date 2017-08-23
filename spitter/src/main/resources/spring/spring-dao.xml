@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd
+						   http://www.springframework.org/schema/context
+						   http://www.springframework.org/schema/context/spring-context-4.1.xsd
+						   http://mybatis.org/schema/mybatis-spring
+						   http://mybatis.org/schema/mybatis-spring-1.2.xsd">
+
+
+	<!-- 整合mybatis-spring自动扫描dao接口实现-->
+	<mybatis-spring:scan base-package="cn.meijunjie.mybatis.dao" factory-ref="sqlSessionFactory"/>
+
+	<!-- 注入数据库信息 -->
+	<context:property-placeholder location="classpath:jdbc.properties" />
+
+	<!-- 配置数据源信息 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+
+		<!-- 配置数据库连接属性 -->
+		<property name="driverClass" value="${jdbc.driver}"/>
+		<property name="jdbcUrl" value="${jdbc.url}"/>
+		<property name="user" value="${jdbc.username}"/>
+		<property name="password" value="${jdbc.password}"/>
+
+		<!-- c3p0私有属性 -->
+		<property name="maxPoolSize" value="30"/>
+		<property name="minPoolSize" value="10"/>
+		<property name="autoCommitOnClose" value="false"/>
+		<property name="checkoutTimeout" value="10000"/>
+		<property name="acquireRetryAttempts" value="2"/>
+	</bean>
+
+	<!-- 配置sqlSessionFactory对象 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+
+		<!-- 注入数据库连接池子 -->
+		<property name="dataSource" ref="dataSource"/>
+		<!-- 配置mybatis的全局配置文件 -->
+		<property name="configLocation" value="classpath:mybatis-config.xml"/>
+		<!-- 扫描entity包设置别名-->
+		<property name="typeAliasesPackage" value="cn.meijunjie.mybatis.dao"/>
+		<!-- 扫描sql配置文件 -->
+		<property name="mapperLocations" value="classpath*:Mapper.xml"/>
+		<!--检测XML文件中parameterMap和ResultMap中的类型转换错误-->
+		<property name="failFast" value="true"/>
+
+	</bean>
+
+
+	<!-- 配置扫描dao包，动态实现dao接口注入到spring容器中 -->
+	<bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+		<property name="basePackage" value="cn.meijunjie.web.dao"/>
+	</bean>
+
+
+</beans>

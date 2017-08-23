@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- Configuration 目录下有虚许多可选的配置项 -->
+	<!-- <properties resource=""></properties> 引用本地资源 -->
+	<!-- <properties url=""></properties> 引用网络资源 -->
+	<!-- <properties resource="jdbc.properties"></properties> -->
+
+	<!-- settings属性 是mybatis 内部某些十分重要的功能 -->
+	<!-- <settings> <setting name="" value=""/> </settings> -->
+
+	<!-- 设置别名 -->
+	<!-- <typeAliases> <typeAlias type=""/> </typeAliases> @Alias注解同样也可以设置别名 -->
+
+	<!-- <environments default="development"> <environment id="development"> 
+		<transactionManager type="JDBC" /> 事务管理器 一般这里的配置都会被整合到spring中进行配置了 <dataSource 
+		type="POOLED"> 这里也是使用第三方的数据源 即数据源连接池 <property name="driver" value="${jdbc.driver}" 
+		/> <property name="url" value="${jdbc.url}" /> <property name="username" 
+		value="${jdbc.username}" /> <property name="password" value="${jdbc.password}" 
+		/> </dataSource> </environment> <environment id="test"> <transactionManager 
+		type="JDBC" /> <dataSource type="POOLED"> <property name="driver" value="${jdbc.driver}" 
+		/> <property name="url" value="${jdbc.url}" /> <property name="username" 
+		value="${jdbc.username}" /> <property name="password" value="${jdbc.password}" 
+		/> </dataSource> </environment> </environments> -->
+
+	<!-- mybatis的映射文件的配置 -->
+	<!-- <mappers> <mapper resource=""/> 这个用于配置本地的映射文件 <mapper resource=""/> 
+		这个用于配置远程的映射文件 <mapper class=""/> 这个用于 配置注解啊？ </mappers> -->
+	<!-- <mappers> <mapper resource="BookDao.xml" /> <mapper class="cn.meijunjie.mybatis.dao.BookDao"/> 
+		<package name="cn.meijunjie.mybatis.dao"/> </mappers> -->
+
+	<!-- spring mybatis 的整合 mybatis的最小化配置 -->
+
+	<settings>
+		<!-- 使用jdbc的getGeneratedKeys获取数据库自增主键值 -->
+		<!--<setting name="useGeneratedKeys" value="true" />-->
+
+		<!-- 使用列别名替换列名 默认:true -->
+		<!--<setting name="useColumnLabel" value="true" />-->
+
+		<!-- 开启驼峰命名转换:Table{create_time} -> Entity{createTime} -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</configuration>
