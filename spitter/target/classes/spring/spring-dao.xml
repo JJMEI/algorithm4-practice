@@ -12,7 +12,7 @@
 
 
 	<!-- 整合mybatis-spring自动扫描dao接口实现-->
-	<mybatis-spring:scan base-package="cn.meijunjie.mybatis.dao" factory-ref="sqlSessionFactory"/>
+	<mybatis-spring:scan base-package="cn.meijunjie.web.dao" factory-ref="sqlSessionFactory"/>
 
 	<!-- 注入数据库信息 -->
 	<context:property-placeholder location="classpath:jdbc.properties" />
@@ -42,9 +42,9 @@
 		<!-- 配置mybatis的全局配置文件 -->
 		<property name="configLocation" value="classpath:mybatis-config.xml"/>
 		<!-- 扫描entity包设置别名-->
-		<property name="typeAliasesPackage" value="cn.meijunjie.mybatis.dao"/>
+		<property name="typeAliasesPackage" value="cn.meijunjie.web.dao"/>
 		<!-- 扫描sql配置文件 -->
-		<property name="mapperLocations" value="classpath*:Mapper.xml"/>
+		<!--<property name="mapperLocations" value="classpath*:Mapper.xml"/>-->
 		<!--检测XML文件中parameterMap和ResultMap中的类型转换错误-->
 		<property name="failFast" value="true"/>
 

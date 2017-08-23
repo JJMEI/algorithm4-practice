@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="948a8c79-aca7-4c65-bbe3-598c621efd74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spitter/.idea/artifacts/spitter_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spitter/.idea/artifacts/spitter_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spitter/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spitter/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spitter/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spitter/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spitter/spitter.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spitter/.idea/libraries/Maven__javax_servlet_servlet_api_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spitter/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_1_2_5.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis" afterPath="$PROJECT_DIR$/../mybatis" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spitter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spitter/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spitter/pom.xml" afterPath="$PROJECT_DIR$/../spitter/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spitter/spitter.iml" afterPath="$PROJECT_DIR$/../spitter/spitter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spitter/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../spitter/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,8 +74,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="371">
+              <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -646,7 +645,7 @@
       <workItem from="1502892879523" duration="12578000" />
       <workItem from="1502957190329" duration="246000" />
       <workItem from="1502957464922" duration="196000" />
-      <workItem from="1502957676953" duration="76959000" />
+      <workItem from="1502957676953" duration="77070000" />
     </task>
     <servers />
   </component>
@@ -683,7 +682,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99382000" />
+    <option name="totallyTimeSpent" value="99493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1303,8 +1302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="371">
+          <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding />
         </state>
       </provider>
