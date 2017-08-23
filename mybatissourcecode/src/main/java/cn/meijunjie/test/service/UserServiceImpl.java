@@ -2,13 +2,15 @@ package cn.meijunjie.test.service;
 
 import cn.meijunjie.test.User;
 import cn.meijunjie.test.UserMapper;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Autowired
+    @Resource
     private UserMapper userMapper;
 
     @Override

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    
+    <!--配置别名-->
+    <typeAliases>
+        <typeAlias type="cn.meijunjie.test.User" alias="User"/>
+    </typeAliases>
+    
+    <!--开启驼峰映射-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--预留一个分页插件-->
+    <!--<plugins>-->
+        <!--<plugin interceptor="PagerHelper"></plugin>-->
+    <!--</plugins>-->
+</configuration>
