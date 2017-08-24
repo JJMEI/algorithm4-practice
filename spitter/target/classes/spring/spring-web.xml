@@ -22,6 +22,9 @@
 	
 	<!-- 加入对静态资源的处理 -->
 	<mvc:default-servlet-handler/>
+
+	<!-- 扫描WEB相关的bean -->
+	<context:component-scan base-package="cn.meijunjie.web.controller"/>
 	
 	<!-- 配置视图解析器 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -30,6 +33,13 @@
 		<property name="suffix" value=".jsp"/>
 	</bean>
 	
-	<!-- 扫描WEB相关的bean -->
-	<context:component-scan base-package="cn.meijunjie.web.controller"/>
+	<!--配置Apache Tiles页面布局器-->
+	<bean class="org.springframework.web.servlet.view.tiles3.TilesViewResolver"/>
+	<bean class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+		<property name="definitions">
+			<list>
+				<value>/WEB-INF/views/**/views.xml</value>
+			</list>
+		</property>
+	</bean>
 </beans>
