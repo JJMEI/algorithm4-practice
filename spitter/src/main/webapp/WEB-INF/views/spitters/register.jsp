@@ -12,7 +12,8 @@
     <title>Register for Spitter</title>
 </head>
 <body>
-    <sf:form modelAttribute="spitter" action="createSpitter" method="post">
+    <%-- enctype="multipart/form-data" 开启表单上传功能 --%>
+    <sf:form modelAttribute="spitter" action="createSpitter" method="post" enctype="multipart/form-data">
         <table>
             <tr>
                 <td>UserName</td>
@@ -53,6 +54,11 @@
                     >Send me email updates!</sf:label>
 
                 </td>
+            </tr>
+
+            <tr>
+                <th><label for="image">Profile Image:</label></th>
+                <td><input name="image" type="file"/></td>
             </tr>
             <tr>
                 <td>

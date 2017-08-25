@@ -20,7 +20,9 @@ public class Spitter implements Serializable{
     private static final Long serialVersionUID = 424124234234134L;
 
     private Long id;
-    @Pattern(regexp = "w{3,8}",message = "用户名不符合规范，请检查重新输入！")
+
+//    @Pattern(regexp = "w{3,16}",message = "用户名不符合规范，请检查重新输入！")
+    @Size(min = 4,max = 12,message = "用户名不符合规范，请检查重新输入！" )
     private String username;
 
     @Pattern(regexp = "[0-9a-z_]{6,16}$",message = "密码不符合规范，请重新输入")

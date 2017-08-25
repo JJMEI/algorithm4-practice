@@ -12,10 +12,10 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
   private static java.util.List<String> _jspx_dependants;
 
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_sf_errors_path_nobody;
+  private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_sf_form_modelAttribute_method_enctype_action;
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_sf_input_path_nobody;
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_sf_password_path_nobody;
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_sf_label_path;
-  private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_sf_form_modelAttribute_method_action;
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_sf_checkbox_path_nobody;
 
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
@@ -26,19 +26,19 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   public void _jspInit() {
     _jspx_tagPool_sf_errors_path_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _jspx_tagPool_sf_form_modelAttribute_method_enctype_action = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _jspx_tagPool_sf_input_path_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _jspx_tagPool_sf_password_path_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _jspx_tagPool_sf_label_path = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
-    _jspx_tagPool_sf_form_modelAttribute_method_action = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _jspx_tagPool_sf_checkbox_path_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
   }
 
   public void _jspDestroy() {
     _jspx_tagPool_sf_errors_path_nobody.release();
+    _jspx_tagPool_sf_form_modelAttribute_method_enctype_action.release();
     _jspx_tagPool_sf_input_path_nobody.release();
     _jspx_tagPool_sf_password_path_nobody.release();
     _jspx_tagPool_sf_label_path.release();
-    _jspx_tagPool_sf_form_modelAttribute_method_action.release();
     _jspx_tagPool_sf_checkbox_path_nobody.release();
   }
 
@@ -75,13 +75,16 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("</head>\n");
       out.write("<body>\n");
       out.write("    ");
+      out.write("\n");
+      out.write("    ");
       //  sf:form
-      org.springframework.web.servlet.tags.form.FormTag _jspx_th_sf_form_0 = (org.springframework.web.servlet.tags.form.FormTag) _jspx_tagPool_sf_form_modelAttribute_method_action.get(org.springframework.web.servlet.tags.form.FormTag.class);
+      org.springframework.web.servlet.tags.form.FormTag _jspx_th_sf_form_0 = (org.springframework.web.servlet.tags.form.FormTag) _jspx_tagPool_sf_form_modelAttribute_method_enctype_action.get(org.springframework.web.servlet.tags.form.FormTag.class);
       _jspx_th_sf_form_0.setPageContext(_jspx_page_context);
       _jspx_th_sf_form_0.setParent(null);
       _jspx_th_sf_form_0.setModelAttribute("spitter");
       _jspx_th_sf_form_0.setAction("createSpitter");
       _jspx_th_sf_form_0.setMethod("post");
+      _jspx_th_sf_form_0.setEnctype("multipart/form-data");
       int[] _jspx_push_body_count_sf_form_0 = new int[] { 0 };
       try {
         int _jspx_eval_sf_form_0 = _jspx_th_sf_form_0.doStartTag();
@@ -226,6 +229,11 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
             out.write("\n");
             out.write("                </td>\n");
             out.write("            </tr>\n");
+            out.write("\n");
+            out.write("            <tr>\n");
+            out.write("                <th><label for=\"image\">Profile Image:</label></th>\n");
+            out.write("                <td><input name=\"image\" type=\"file\"/></td>\n");
+            out.write("            </tr>\n");
             out.write("            <tr>\n");
             out.write("                <td>\n");
             out.write("                    <input name=\"commit\" type=\"submit\" value=\"I Accept. Create My Count\"/>\n");
@@ -247,7 +255,7 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_sf_form_0.doCatch(_jspx_exception);
       } finally {
         _jspx_th_sf_form_0.doFinally();
-        _jspx_tagPool_sf_form_modelAttribute_method_action.reuse(_jspx_th_sf_form_0);
+        _jspx_tagPool_sf_form_modelAttribute_method_enctype_action.reuse(_jspx_th_sf_form_0);
       }
       out.write("\n");
       out.write("</body>\n");

@@ -7,4 +7,5 @@ cn/meijunjie/web/dao/Spittle.class
 cn/meijunjie/web/controller/HomeController.class
 cn/meijunjie/web/dao/SpitterMapper.class
 cn/meijunjie/web/controller/SpittleController.class
+cn/meijunjie/web/execption/ImageUploadException.class
 cn/meijunjie/web/dao/Spitter.class
