@@ -59,21 +59,25 @@ public class SpitterController {
     }
 
     @RequestMapping(value = "/createSpitter",method = RequestMethod.POST)
-    public String addSpitterToDataBase(@Valid Spitter spitter, BindingResult bindingResult, @RequestParam("image")MultipartFile image) throws IOException {
+    public String addSpitterToDataBase(@Valid Spitter spitter, BindingResult bindingResult,
+                                       @RequestParam(value = "image", required = false)MultipartFile image)
+            throws IOException {
+        //查看是否出现校验错误，如果出现错误则之间返回注册页面
         if(bindingResult.hasErrors())
         {
             return "spitters/register";
         }
+        //调用SpitterService服务registerSpitter方法入库
         spitterService.registerSpitter(spitter);
         try
         {
             //如果上传照片非空
             if(!image.isEmpty())
             {
-                //校验image
+                //校验image是否为指定的格式
                 validateImage(image);
 
-                //存储image
+                //存储image，可以选择存储到本地或者云端
                 saveImage(spitter.getId() + spitter.getUsername()+".jpg",image);
                 saveImageToColude(spitter.getId() + spitter.getUsername()+".jpg",image);
 
@@ -102,6 +106,7 @@ public class SpitterController {
 
 
     private void validateImage(MultipartFile image) {
+        //调用image.getContentType()方法获取，上传内容的类型
         if(!image.getContentType().equals("image/jpeg"))
             throw new ImageUploadException("Only JPG image accepted");
     }
@@ -118,10 +123,20 @@ public class SpitterController {
         }
     }
 
+    /**
+     * 将图片上传到七牛云存储
+     * @param imageName
+     * @param image
+     * @throws ImageUploadException
+     * @throws IOException
+     */
     private void saveImageToColude(String imageName, MultipartFile image) throws ImageUploadException, IOException {
+        //设置配置对象
         Configuration configuration = new Configuration(Zone.zone2());
+        //获取上传管理
         UploadManager manager = new UploadManager(configuration);
 
+        //生成权限控制器
         Auth auth = Auth.create(accessKey,secretKey);
 
         String key = imageName;

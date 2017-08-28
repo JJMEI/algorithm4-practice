@@ -48,4 +48,7 @@
 			</list>
 		</property>
 	</bean>
+
+	<!-- Spring security权限控制-->
+
 </beans>
