@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="collection:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="colectoion.war">
+      <element id="artifact" artifact-name="collection:war exploded" />
+    </root>
+  </artifact>
+</component>

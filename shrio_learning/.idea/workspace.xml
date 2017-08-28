@@ -140,7 +140,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/java.util.Map" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JAVA/java.util.Map" pinned="false" current-in-tab="false">
         <entry file="uml://JAVA/java.util.Map">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
@@ -173,11 +173,45 @@
                   <point x="25.25" y="15.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="134.0" y="35.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-148.0" y="65.0" />
               <SelectedNodes />
               <Categories />
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1401">
+              <caret line="692" column="4" lean-forward="false" selection-start-line="692" selection-start-column="4" selection-end-line="692" selection-end-column="4" />
+              <folding>
+                <element signature="docComment;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;field#DEFAULT_CAPACITY#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;field#EMPTY_ELEMENTDATA#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;field#DEFAULTCAPACITY_EMPTY_ELEMENTDATA#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;field#elementData#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;field#size#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#ArrayList#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#ArrayList#1;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#ArrayList#2;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#ensureCapacity#0;class#ArrayList#0" expanded="false" />
+                <element signature="e#10189#10190#0" expanded="true" />
+                <element signature="e#10216#10217#0" expanded="true" />
+                <element signature="docComment;method#lastIndexOf#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#clone#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#toArray#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#toArray#1;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#addAll#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#addAll#1;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#rangeCheck#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#removeAll#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#retainAll#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#writeObject#0;class#ArrayList#0" expanded="false" />
+                <element signature="docComment;method#readObject#0;class#ArrayList#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,19 +225,6 @@
                 <element signature="docComment;class#Iterable#0" expanded="false" />
                 <element signature="docComment;method#forEach#0;class#Iterable#0" expanded="false" />
                 <element signature="docComment;method#spliterator#0;class#Iterable#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Realm.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/realm/Realm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;method#supports#0;class#Realm#0" expanded="false" />
-                <element signature="docComment;method#getAuthenticationInfo#0;class#Realm#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -263,8 +284,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="261" />
-    <option name="y" value="195" />
+    <option name="x" value="260" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="827" />
   </component>
@@ -390,7 +411,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="AbstractQ&#9;PSI&#9;JAVA://java.util.AbstractQueue&#10;Real&#9;PSI&#9;JAVA://org.apache.shiro.realm.Realm" />
+    <property name="SearchEverywhereHistoryKey" value="ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;AbstractQ&#9;PSI&#9;JAVA://java.util.AbstractQueue&#10;Real&#9;PSI&#9;JAVA://org.apache.shiro.realm.Realm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -615,7 +636,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503653811351</updated>
-      <workItem from="1503653812699" duration="3942000" />
+      <workItem from="1503653812699" duration="5811000" />
     </task>
     <servers />
   </component>
@@ -643,10 +664,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3942000" />
+    <option name="totallyTimeSpent" value="5811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="261" y="195" width="1440" height="827" extended-state="0" />
+    <frame x="260" y="23" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -657,11 +678,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33261493" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -684,7 +705,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java</url>
+          <line>277</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java</url>
+          <line>276</line>
+          <properties class="java.util.ArrayList" method="size">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -901,11 +939,43 @@
               <point x="25.25" y="15.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="134.0" y="35.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-148.0" y="65.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1401">
+          <caret line="692" column="4" lean-forward="false" selection-start-line="692" selection-start-column="4" selection-end-line="692" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_CAPACITY#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;field#EMPTY_ELEMENTDATA#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;field#DEFAULTCAPACITY_EMPTY_ELEMENTDATA#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;field#elementData#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;field#size#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#ArrayList#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#ArrayList#1;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#ArrayList#2;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#ensureCapacity#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#10189#10190#0" expanded="true" />
+            <element signature="e#10216#10217#0" expanded="true" />
+            <element signature="docComment;method#lastIndexOf#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#clone#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#toArray#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#toArray#1;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#addAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#addAll#1;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#rangeCheck#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#removeAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#retainAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#writeObject#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#readObject#0;class#ArrayList#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
