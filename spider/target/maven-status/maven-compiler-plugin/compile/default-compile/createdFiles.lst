@@ -1,0 +1,5 @@
+cn/meijunjie/spider/entity/GoodsInfo.class
+cn/meijunjie/spider/constant/SysConstant$Header.class
+cn/meijunjie/spider/dao/GoodsInfoMapper.class
+cn/meijunjie/spider/constant/SysConstant.class
+cn/meijunjie/spider/common/HttpClientUtils.class

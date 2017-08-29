@@ -6,5 +6,5 @@
     <security:http >
         <security:intercept-url pattern="" requires-channel="https"/>
     </security:http>
-    <s
+
 </beans>

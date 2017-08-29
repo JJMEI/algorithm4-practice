@@ -2,32 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595a01c1-0c6b-4f42-af48-1cbc6a5aef7c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/index_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/tmp/jsp/org/apache/jsp/index_jsp.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__com_alibaba_fastjson_1_2_35.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_testng_testng_6_8_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/common/GoodsInfoUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/common/HttpClientUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/constant/SysConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/dao/GoodsInfoMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/entity/GoodsInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/service/SpiderServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/resources/mybatis/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/test/java/cn/meijunjie/spider/test/common/TestHttpClientUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/test/java/cn/meijunjie/spider/test/dao/TestGoodsInfoDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/test/java/cn/meijunjie/spider/test/service/TestSpiderServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/colectoion/collection/collection_and_thread.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/colectoion/collection/java/cn/meijunjie/collection/CollectionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/ForwardingController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/HomeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/SpitterController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/SpittleController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/TestController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/Spitter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/SpitterMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/Spittle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/service/SpitterService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/service/SpitterServiceImpl.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colectoion/target/classes/cn/meijunjie/collection/CollectionTest.class" afterPath="$PROJECT_DIR$/colectoion/target/classes/cn/meijunjie/collection/CollectionTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis" afterPath="$PROJECT_DIR$/mybatis" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/HomeController.class" afterPath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/Spitter.class" afterPath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/Spitter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/SpitterMapper.class" afterPath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/SpitterMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/Spittle.class" afterPath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/Spittle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/test-classes/cn/meijunjie/web/test/dao/SpitterMapperTest.class" afterPath="$PROJECT_DIR$/spitter/target/test-classes/cn/meijunjie/web/test/dao/SpitterMapperTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatissourcecode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/mybatissourcecode/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colectoion/.idea/artifacts/collection_war_exploded.xml" afterPath="$PROJECT_DIR$/colectoion/.idea/artifacts/collection_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colectoion/.idea/modules.xml" afterPath="$PROJECT_DIR$/colectoion/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colectoion/.idea/workspace.xml" afterPath="$PROJECT_DIR$/colectoion/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/spitter/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/pom.xml" afterPath="$PROJECT_DIR$/spitter/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/spitter.iml" afterPath="$PROJECT_DIR$/spitter/spitter.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/main/java/cn/meijunjie/web/controller/HomeController.java" afterPath="$PROJECT_DIR$/spitter/src/main/java/cn/meijunjie/web/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/main/java/cn/meijunjie/web/dao/Spitter.java" afterPath="$PROJECT_DIR$/spitter/src/main/java/cn/meijunjie/web/dao/Spitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/main/java/cn/meijunjie/web/dao/SpitterMapper.java" afterPath="$PROJECT_DIR$/spitter/src/main/java/cn/meijunjie/web/dao/SpitterMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/main/java/cn/meijunjie/web/dao/Spittle.java" afterPath="$PROJECT_DIR$/spitter/src/main/java/cn/meijunjie/web/dao/Spittle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/spitter/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/spitter/src/main/resources/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/main/resources/spring/spring-web.xml" afterPath="$PROJECT_DIR$/spitter/src/main/resources/spring/spring-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/test/java/cn/meijunjie/web/test/dao/SpitterMapperTest.java" afterPath="$PROJECT_DIR$/spitter/src/test/java/cn/meijunjie/web/test/dao/SpitterMapperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/spitter/target/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/classes/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/spitter/target/classes/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/spitter/target/classes/spring/spring-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/spitter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/spitter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/spitter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/main/resources/spring/spring-security.xml" afterPath="$PROJECT_DIR$/spitter/src/main/resources/spring/spring-security.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +52,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springfuxi/src/main/webapp/WEB-INF/views/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,21 +63,99 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createSuccess.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createSuccess.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/views/createSuccess.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springfuxi/src/main/webapp/WEB-INF/views/main.jsp">
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springmvc/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/resources/mybatis/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1503457983000" expanded="true" signature="631:709" ph="select id,us... user" />
+                <marker date="1503457983000" expanded="true" signature="868:903" ph="SELECT * FRO... USER" />
+                <marker date="1503457983000" expanded="true" signature="971:1048" ph="select count... tmp" />
+                <marker date="1503457983000" expanded="true" signature="1118:1136" ph="SELECT * fro... user" />
+                <marker date="1503457983000" expanded="true" signature="1252:1329" ph="INSERT INTO USER" />
+                <marker date="1503457983000" expanded="true" signature="1740:1812" ph="update user " />
+                <marker date="1503457983000" expanded="true" signature="1885:1916" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/resources/mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Teacher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/Teacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XPathTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/XPathTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBatisTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/MyBatisTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-118">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapperProxy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/MapperProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,9 +177,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -104,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,54 +208,81 @@
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissourcecode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissourcecode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissourcecode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissourcecode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissourcecode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissourcecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meijunjie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissourcecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meijunjie" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissourcecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm4-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissourcecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -286,14 +407,17 @@
       <updated>1503320432395</updated>
       <workItem from="1503320433869" duration="48000" />
       <workItem from="1503565625059" duration="72000" />
+      <workItem from="1503917722243" duration="40000" />
+      <workItem from="1503984629807" duration="1329000" />
+      <workItem from="1503988742299" duration="1606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120000" />
+    <option name="totallyTimeSpent" value="3095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -304,9 +428,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2908864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33002833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26293105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -332,6 +456,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springfuxi/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/resources/mybatis/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1503457983000" expanded="true" signature="631:709" ph="select id,us... user" />
+            <marker date="1503457983000" expanded="true" signature="868:903" ph="SELECT * FRO... USER" />
+            <marker date="1503457983000" expanded="true" signature="971:1048" ph="select count... tmp" />
+            <marker date="1503457983000" expanded="true" signature="1118:1136" ph="SELECT * fro... user" />
+            <marker date="1503457983000" expanded="true" signature="1252:1329" ph="INSERT INTO USER" />
+            <marker date="1503457983000" expanded="true" signature="1740:1812" ph="update user " />
+            <marker date="1503457983000" expanded="true" signature="1885:1916" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/XPathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/MyBatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springfuxi/src/main/webapp/WEB-INF/views/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -351,7 +547,143 @@
     <entry file="file://$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/views/createSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springfuxi/src/main/webapp/WEB-INF/views/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springfuxi/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springfuxi/src/main/webapp/WEB-INF/views/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/views/createSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
           <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springfuxi/src/main/webapp/WEB-INF/views/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springfuxi/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/resources/mybatis/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1503457983000" expanded="true" signature="631:709" ph="select id,us... user" />
+            <marker date="1503457983000" expanded="true" signature="868:903" ph="SELECT * FRO... USER" />
+            <marker date="1503457983000" expanded="true" signature="971:1048" ph="select count... tmp" />
+            <marker date="1503457983000" expanded="true" signature="1118:1136" ph="SELECT * fro... user" />
+            <marker date="1503457983000" expanded="true" signature="1252:1329" ph="INSERT INTO USER" />
+            <marker date="1503457983000" expanded="true" signature="1740:1812" ph="update user " />
+            <marker date="1503457983000" expanded="true" signature="1885:1916" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/XPathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/views/createSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/MyBatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/MapperProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>

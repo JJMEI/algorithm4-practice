@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [cn.meijunjie.spider.test.dao.TestGoodsInfoDao]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="cn.meijunjie.spider.test.dao.TestGoodsInfoDao">
+        <methods>
+          <include name="testGoodsInfoDao"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- cn.meijunjie.spider.test.dao.TestGoodsInfoDao -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [cn.meijunjie.spider.test.dao.TestGoodsInfoDao] -->
