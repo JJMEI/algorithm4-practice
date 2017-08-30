@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595a01c1-0c6b-4f42-af48-1cbc6a5aef7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__com_alibaba_fastjson_1_2_35.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/libraries/Maven__org_testng_testng_6_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/common/GoodsInfoUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/common/HttpClientUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/constant/SysConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/dao/GoodsInfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/entity/GoodsInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/cn/meijunjie/spider/service/SpiderServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/resources/mybatis/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/test/java/cn/meijunjie/spider/test/common/TestHttpClientUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/test/java/cn/meijunjie/spider/test/dao/TestGoodsInfoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/src/test/java/cn/meijunjie/spider/test/service/TestSpiderServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/colectoion/collection/collection_and_thread.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/colectoion/collection/java/cn/meijunjie/collection/CollectionTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/ForwardingController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/HomeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/SpitterController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/SpittleController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/controller/TestController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/Spitter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/SpitterMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/dao/Spittle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/service/SpitterService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter/target/classes/cn/meijunjie/web/service/SpitterServiceImpl.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colectoion/target/classes/cn/meijunjie/collection/CollectionTest.class" afterPath="$PROJECT_DIR$/colectoion/target/classes/cn/meijunjie/collection/CollectionTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis" afterPath="$PROJECT_DIR$/mybatis" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colectoion/.idea/artifacts/collection_war_exploded.xml" afterPath="$PROJECT_DIR$/colectoion/.idea/artifacts/collection_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colectoion/.idea/modules.xml" afterPath="$PROJECT_DIR$/colectoion/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colectoion/.idea/workspace.xml" afterPath="$PROJECT_DIR$/colectoion/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/spitter/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter/src/main/resources/spring/spring-security.xml" afterPath="$PROJECT_DIR$/spitter/src/main/resources/spring/spring-security.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,9 +115,11 @@
       <file leaf-file-name="MapperProxy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/MapperProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="360">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -409,12 +372,12 @@
       <workItem from="1503565625059" duration="72000" />
       <workItem from="1503917722243" duration="40000" />
       <workItem from="1503984629807" duration="1329000" />
-      <workItem from="1503988742299" duration="1606000" />
+      <workItem from="1503988742299" duration="1613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3095000" />
+    <option name="totallyTimeSpent" value="3102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -682,9 +645,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatissourcecode/src/main/java/cn/meijunjie/test/MapperProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -17,4 +17,6 @@ public interface GoodsInfoMapper {
     +"</foreach>"
     +"</script>")
     void saveBatch(List<GoodsInfo> infos);
+
+
 }

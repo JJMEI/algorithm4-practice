@@ -17,14 +17,14 @@ import java.util.ArrayList;
 @Slf4j
 public class TestGoodsInfoDao {
 
-    private static SqlSession sqlSession = null;
+    private static SqlSessionFactory sqlSessionFactory = null;
 
     @BeforeTest
     public void beforeTest()
     {
         try {
-            SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsStream("mybatis/mybatis-config.xml"));
-            sqlSession = sqlSessionFactory.openSession(false);
+             sqlSessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsStream("mybatis/mybatis-config.xml"));
+            SqlSession sqlSession = sqlSessionFactory.openSession(false);
         } catch (IOException e) {
             e.printStackTrace();
             log.debug(e.getMessage());
@@ -34,6 +34,8 @@ public class TestGoodsInfoDao {
     @Test
     public void testGoodsInfoDao()
     {
+        SqlSession sqlSession = sqlSessionFactory.openSession(false);
+
         GoodsInfoMapper goodsInfoMapper = sqlSession.getMapper(GoodsInfoMapper.class);
         ArrayList<GoodsInfo> list = new ArrayList<>();
 

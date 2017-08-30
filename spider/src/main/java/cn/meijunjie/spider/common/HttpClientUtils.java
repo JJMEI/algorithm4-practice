@@ -30,16 +30,20 @@ public class HttpClientUtils {
     {
         //创建HttpClient对象
         CloseableHttpClient httpClient = HttpClients.createDefault();
+
         StringBuilder reqUrl = new StringBuilder(url);
         String result = "";
 
+        //拼接访问地址
         if(params != null && params.size() > 0)
         {
             reqUrl.append("?");
+            //遍历参数键值对,进行
             for(Map.Entry<String,String> param : params.entrySet())
             {
                 reqUrl.append(param.getKey() + "=" + param.getValue() + "&");
             }
+            //过滤吊最后一个&字符
             url = reqUrl.substring(0, reqUrl.length() - 1);
         }
 
@@ -59,15 +63,19 @@ public class HttpClientUtils {
             }
         }
 
+        //响应实例CloseableHttpResponse
         CloseableHttpResponse httpResponse = null;
         //设置响应
         try {
+
             httpResponse = httpClient.execute(httpGet);
 
-            //判断是否是否成功响应
+            //判断是否是否成功响应,通过获取状态行进而获取状态码 如果状态码等于200 则响应成功
             if(httpResponse != null && httpResponse.getStatusLine().getStatusCode() == 200)
             {
+                //HttpEntity 可以理解为响应中的实体，即响应的主要内容
                 HttpEntity httpEntity = httpResponse.getEntity();
+                //获取响应的内容，指定字符串的编码格式,这些都是需要持久化
                 result = EntityUtils.toString(httpEntity, SysConstant.DEFAULT_CHARSET);
             }
         } catch (IOException e) {
@@ -86,31 +94,36 @@ public class HttpClientUtils {
         return result;
     }
 
-//    public static String sendPost(String url, Map<String,String> headers, Map<String,String> params)
-//    {
-//        CloseableHttpClient httpClient = HttpClients.createDefault();
-//        String result = "";
-//        HttpPost httpPost = new HttpPost(url);
-//
-//        //获取参数
-//        if(params != null && params.size() > 0)
-//        {
-//            List<NameValuePair> paramList = new ArrayList<>();
-//            for(Map.Entry<String,String> param:params)
-//                paramList.add(new BasicNameValuePair(param.getKey(),param.getValue()));
-//            log.debug("[url: " + url + ",method: " + POST_METHOD + "]");
-//
-//            //模拟表单提交
-//            try
-//            {
-//                UrlEncodedFormEntity encodedFormEntity = new UrlEncodedFormEntity(paramList,SysConstant.DEFAULT_CHARSET);
-//                httpPost.setEntity(encodedFormEntity);
-//            }catch (UnsupportedEncodingException e)
-//            {
-//                log.error("不支持的编码格式....");
-//            }
-//        }
-//
-//        return null;
-//    }
+    public static String sendPost(String url, Map<String,String> headers, Map<String,String> params)
+    {
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        String result = "";
+        HttpPost httpPost = new HttpPost(url);
+
+        //获取参数
+        if(params != null && params.size() > 0)
+        {
+            List<NameValuePair> paramList = new ArrayList<>();
+
+            for(Map.Entry<String,String> param : params.entrySet())
+                paramList.add(new BasicNameValuePair(param.getKey(),param.getValue()));
+
+            log.debug("[url: " + url + ",method: " + POST_METHOD + "]");
+
+            //模拟表单提交
+            try
+            {
+                UrlEncodedFormEntity encodedFormEntity = new UrlEncodedFormEntity(paramList,SysConstant.DEFAULT_CHARSET);
+
+                //设置请求体
+                httpPost.setEntity(encodedFormEntity);
+
+            }catch (UnsupportedEncodingException e)
+            {
+                log.error("不支持的编码格式....");
+            }
+        }
+
+        return null;
+    }
 }
