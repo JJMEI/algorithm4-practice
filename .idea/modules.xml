@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/algorithm4-practice.iml" filepath="$PROJECT_DIR$/algorithm4-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymelead-demo.iml" filepath="$PROJECT_DIR$/thymelead-demo.iml" />
     </modules>
   </component>
 </project>

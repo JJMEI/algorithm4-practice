@@ -51,8 +51,8 @@ public class DefaultSqlSession implements SqlSession {
     private Configuration configuration;  //统一配置对象 包括MyBatis环境配置 和 Mapper.xml文件配置
     private Executor executor;    //执行器
 
-    private boolean autoCommit;
-    private boolean dirty;
+    private boolean autoCommit; //自动提交 标记
+    private boolean dirty;      //缓存清除标记
     private List<Cursor<?>> cursorList;
 
     public DefaultSqlSession(Configuration configuration, Executor executor, boolean autoCommit) {
@@ -94,10 +94,22 @@ public class DefaultSqlSession implements SqlSession {
         return this.selectMap(statement, parameter, mapKey, RowBounds.DEFAULT);
     }
 
+    /**
+     * 返回一个
+     * @param statement
+     * @param parameter
+     * @param mapKey
+     * @param rowBounds
+     * @param <K>
+     * @param <V>
+     * @return
+     */
     @Override
     public <K, V> Map<K, V> selectMap(String statement, Object parameter, String mapKey, RowBounds rowBounds)
     {
+        //调用了selectList
         final List<? extends V> list = selectList(statement, parameter, rowBounds);
+
         final DefaultMapResultHandler<K, V> mapResultHandler = new DefaultMapResultHandler<K, V>(mapKey,
                 configuration.getObjectFactory(), configuration.getObjectWrapperFactory(), configuration.getReflectorFactory());
         final DefaultResultContext<V> context = new DefaultResultContext<V>();
@@ -105,7 +117,7 @@ public class DefaultSqlSession implements SqlSession {
             context.nextResultObject(o);
             mapResultHandler.handleResult(context);
         }
-        return mapResultHandler.getMappedResults();
+        return mapResultHandler.getMappedResults(); //MapResultHandler
     }
 
     @Override
@@ -167,10 +179,13 @@ public class DefaultSqlSession implements SqlSession {
     @Override
     public void select(String statement, Object parameter, RowBounds rowBounds, ResultHandler handler) {
         try {
-            //从configuration对象中获取statement语句
+
+            //从configuration对象中获取MappedStatement语句
             MappedStatement ms = configuration.getMappedStatement(statement);
+
             //委托给executor,进行具体的执行，入参sql语句 和经过包装的参数
             executor.query(ms, wrapCollection(parameter), rowBounds, handler);
+
         } catch (Exception e) {
             throw ExceptionFactory.wrapException("Error querying database.  Cause: " + e, e);
         } finally {
@@ -196,8 +211,11 @@ public class DefaultSqlSession implements SqlSession {
     @Override
     public int update(String statement, Object parameter) {
         try {
+
             dirty = true;
+
             MappedStatement ms = configuration.getMappedStatement(statement);
+
             return executor.update(ms, wrapCollection(parameter));
         } catch (Exception e) {
             throw ExceptionFactory.wrapException("Error updating database.  Cause: " + e, e);
@@ -320,7 +338,14 @@ public class DefaultSqlSession implements SqlSession {
         return (!autoCommit && dirty) || force;
     }
 
+
+    /**
+     * 将目标参数包装成一个内置Map类型
+     * @param object
+     * @return
+     */
     private Object wrapCollection(final Object object) {
+        //判断入参是否为Collection的实例
         if (object instanceof Collection) {
             StrictMap<Object> map = new StrictMap<Object>();
             map.put("collection", object);
@@ -336,6 +361,10 @@ public class DefaultSqlSession implements SqlSession {
         return object;
     }
 
+    /**
+     * 内部类 继承于HashMap，重写了get方法
+     * @param <V>
+     */
     public static class StrictMap<V> extends HashMap<String, V> {
 
         private static final long serialVersionUID = -5741767162221585340L;

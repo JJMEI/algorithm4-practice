@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" content="text/html">
+    <title>Thymeleaf</title>
+</head>
+<body>
+    <!-- 就可以用th标签动态替换掉静态数据了。如下图，后台传出的message会将静态数据“Red Chair”替换掉，若访问静态页面，则显示数据“Red Chair”-->
+    <td th:text="${message}">Red Chair</td>
+</body>
+</html>

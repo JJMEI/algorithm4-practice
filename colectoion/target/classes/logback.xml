@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration debug="true">
+<configuration debug="false">
     <!-- 定义日志的存储地址 切勿在LogBack的配置中使用相对路径-->
     <property name="LOG_HOME" value="/Users/leeco"></property>
 
@@ -29,7 +29,7 @@
     </appender>
 
     <!--日志输出级别 -->
-    <root level="info">
+    <root level="debug">
         <appender-ref ref="STDOUT"></appender-ref>
     </root>
 </configuration>

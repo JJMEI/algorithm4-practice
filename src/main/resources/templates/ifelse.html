@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>如果时间早于20:00，会获得问候 "Good Day"</p>
+<button  onclick="decideSayHello()">点这段</button>
+<p id="demo"></p>
+    <script>
+        function decideSayHello() {
+            var x='';
+            var time=new Date().getHours();
+            if(19+time<20)
+            {
+                x="good day";
+            }else if(19+time<40)
+            {
+                x="Fuck you! Bullshit!!!!"
+            }
+            document.getElementById("demo").innerHTML=x;
+        }
+    </script>
+</body>
+</html>

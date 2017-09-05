@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh_CN" >
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <script>
+        function showGoodsInfo(str) {
+            var xmlhttp;
+            if(str=="")
+            {
+                document.getElementById("txtHint").innerHTML="";
+                return;
+            }
+            if(window.XMLHttpRequest)
+            {
+                xmlhttp=new XMLHttpRequest();
+            }else
+            {
+                xmlhttp=new ActiveXObject("Mircosoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange=function () {
+                if(true)
+                {
+                    document.getElementById("txtHint").innerHTML=xmlhttp.responseXML
+                }
+            };
+            xmlhttp.open("GET","http://127.0.0.1:8989/mybatis/getGoodsInfo/"+str,true);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <form action="">
+        输入商品ID：<input value="" onchange="showGoodsInfo(this.value)"/>
+    </form>
+    <br/>
+<div id="txtHint">商品信息将显示在这...</div>
+</body>
+</html>

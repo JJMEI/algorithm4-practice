@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <p>点击下面按钮确定是星期几: </p>
+    <button onclick="myFunction()">点击这里</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            var x;
+            var d=new Date().getDay();
+            switch (d)
+            {
+                case 0:x="星期天";
+                break;
+                case 1:x="星期1";break;
+                case 2:x="星期2";
+                    break;
+                case 3:x="星期3";
+                    break;
+                case 4:x="星期4";
+                    break;case 5:x="星期5";
+                break;case 6:x="星期6";
+                break;
+
+            }
+            document.getElementById("demo").innerHTML=x;
+        }
+    </script>
+</body>
+</html>

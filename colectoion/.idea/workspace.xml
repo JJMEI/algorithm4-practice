@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/SimpleWaitAndNotify.java" line="9" mnemonic="2" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1b3c3f2c-d19f-4962-a7d2-7d27c8715d21" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -11,29 +14,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/TestThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#208#332#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#494#699#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="732" column="7" lean-forward="true" selection-start-line="732" selection-start-column="7" selection-end-line="732" selection-end-column="7" />
+            <state relative-caret-position="26640">
+              <caret line="1953" column="7" lean-forward="false" selection-start-line="1953" selection-start-column="7" selection-end-line="1953" selection-end-column="7" />
               <folding>
                 <element signature="docComment;class#Thread#0" expanded="false" />
               </folding>
@@ -41,11 +39,128 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Lock.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMapTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/HashMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReenterLockTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/lock/ReenterLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="79" column="55" lean-forward="false" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadAndWriteLockTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/lock/ReadAndWriteLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/ThreadPoolTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="88" column="30" lean-forward="false" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+              <folding>
+                <element signature="docComment;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newFixedThreadPool#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newFixedThreadPool#1;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newSingleThreadExecutor#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newSingleThreadExecutor#1;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newCachedThreadPool#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newCachedThreadPool#1;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newSingleThreadScheduledExecutor#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newSingleThreadScheduledExecutor#1;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newScheduledThreadPool#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#newScheduledThreadPool#1;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#unconfigurableExecutorService#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#unconfigurableScheduledExecutorService#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#defaultThreadFactory#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#privilegedThreadFactory#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#callable#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#callable#1;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#callable#2;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#callable#3;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#privilegedCallable#0;class#Executors#0" expanded="false" />
+                <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18525">
+              <caret line="1379" column="6" lean-forward="false" selection-start-line="1379" selection-start-column="6" selection-end-line="1379" selection-end-column="6" />
+              <folding>
+                <element signature="docComment;method#ThreadPoolExecutor#1;class#ThreadPoolExecutor#0" expanded="false" />
+                <element signature="docComment;method#ThreadPoolExecutor#2;class#ThreadPoolExecutor#0" expanded="false" />
+                <element signature="docComment;method#ThreadPoolExecutor#3;class#ThreadPoolExecutor#0" expanded="false" />
+                <element signature="docComment;method#execute#0;class#ThreadPoolExecutor#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayBlockingQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collection_thread/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="15">
+              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -78,6 +193,16 @@
         <option value="$PROJECT_DIR$/collection/java/cn/meijunjie/collection/CollectionTest.java" />
         <option value="$PROJECT_DIR$/collection_thread/resources/logbck.xml" />
         <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/TestThread.java" />
+        <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/chapter3/NoVisibility.java" />
+        <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/SimpleWaitAndNotify.java" />
+        <option value="$PROJECT_DIR$/collection_thread/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/JoinTest.java" />
+        <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/VolatileTest.java" />
+        <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/ArrayListTest.java" />
+        <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/HashMapTest.java" />
+        <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/lock/ReadAndWriteLockTest.java" />
+        <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/ThreadPoolTest.java" />
+        <option value="$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/lock/ReenterLockTest.java" />
       </list>
     </option>
   </component>
@@ -111,7 +236,6 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="827" />
@@ -131,9 +255,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +294,25 @@
               <item name="colectoion" type="b2602c69:ProjectViewProjectNode" />
               <item name="colectoion" type="462c0819:PsiDirectoryNode" />
               <item name="collection_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meijunjie" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="colectoion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="colectoion" type="462c0819:PsiDirectoryNode" />
+              <item name="collection_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meijunjie" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="colectoion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="colectoion" type="462c0819:PsiDirectoryNode" />
+              <item name="collection_thread" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,17 +323,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Thread&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java&#10;State&#9;PSI&#9;JAVA://java.lang.Thread.State&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays" />
+    <property name="SearchEverywhereHistoryKey" value="lock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class&#10;Thread&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java&#10;ArrayBlock&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;State&#9;PSI&#9;JAVA://java.lang.Thread.State&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -205,134 +348,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestThread.test">
-    <configuration name="CollectionTest.testHashMap" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.meijunjie.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="collection" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="cn.meijunjie.collection" />
-      <option name="MAIN_CLASS_NAME" value="cn.meijunjie.collection.CollectionTest" />
-      <option name="METHOD_NAME" value="testHashMap" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestThread" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ReenterLockTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cn.meijunjie.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="collection_and_thread" />
+      <option name="MAIN_CLASS_NAME" value="cn.meijunjie.thread.ArrayListTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="cn.meijunjie.thread" />
-      <option name="MAIN_CLASS_NAME" value="cn.meijunjie.thread.TestThread" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <module name="collection_and_thread" />
       <envs />
-      <properties />
-      <listeners />
     </configuration>
-    <configuration name="TestThread.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cn.meijunjie.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="collection_and_thread" />
+      <option name="MAIN_CLASS_NAME" value="cn.meijunjie.thread.HashMapTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="cn.meijunjie.thread" />
-      <option name="MAIN_CLASS_NAME" value="cn.meijunjie.thread.TestThread" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <module name="collection_and_thread" />
       <envs />
-      <properties />
-      <listeners />
     </configuration>
-    <configuration name="TestThread.testThread" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadAndWriteLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.meijunjie.thread.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.meijunjie.thread.lock.ReadAndWriteLockTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="collection_and_thread" />
+      <envs />
+    </configuration>
+    <configuration name="ReenterLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.meijunjie.thread.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.meijunjie.thread.lock.ReenterLockTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="collection_and_thread" />
+      <envs />
+    </configuration>
+    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cn.meijunjie.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="collection_and_thread" />
+      <option name="MAIN_CLASS_NAME" value="cn.meijunjie.thread.ThreadPoolTest" />
+      <option name="VM_PARAMETERS" value="-server" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="cn.meijunjie.thread" />
-      <option name="MAIN_CLASS_NAME" value="cn.meijunjie.thread.TestThread" />
-      <option name="METHOD_NAME" value="testThread" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <module name="collection_and_thread" />
       <envs />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -427,19 +537,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.CollectionTest.testHashMap" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestThread.testThread" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestThread" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestThread" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestThread.test" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ArrayListTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HashMapTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReenterLockTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReadAndWriteLockTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ThreadPoolTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestThread.test" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestThread" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestThread.testThread" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestThread" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.CollectionTest.testHashMap" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReenterLockTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ThreadPoolTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReadAndWriteLockTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HashMapTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -463,63 +573,65 @@
       <updated>1503904138850</updated>
       <workItem from="1503904140208" duration="6478000" />
       <workItem from="1503918396460" duration="2237000" />
+      <workItem from="1504083151895" duration="4928000" />
+      <workItem from="1504163585273" duration="90000" />
+      <workItem from="1504163703962" duration="8882000" />
+      <workItem from="1504257046750" duration="715000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectionTest_testHashMap - 2017.08.28 at 16h 37m 49s.xml">
-      <configuration name="CollectionTest.testHashMap" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify - 2017.08.31 at 10h 36m 00s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestThread - 2017.08.28 at 19h 08m 32s.xml">
-      <configuration name="TestThread" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify - 2017.08.31 at 10h 38m 45s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestThread - 2017.08.28 at 19h 09m 08s.xml">
-      <configuration name="TestThread" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify - 2017.08.31 at 10h 48m 54s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestThread_test - 2017.08.28 at 19h 20m 15s.xml">
-      <configuration name="TestThread.test" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify - 2017.08.31 at 11h 29m 34s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestThread_testThread - 2017.08.28 at 18h 51m 54s.xml">
-      <configuration name="TestThread.testThread" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify - 2017.08.31 at 11h 29m 45s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestThread_testThread - 2017.08.28 at 18h 53m 12s.xml">
-      <configuration name="TestThread.testThread" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify - 2017.08.31 at 11h 29m 51s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestThread_testThread - 2017.08.28 at 18h 54m 37s.xml">
-      <configuration name="TestThread.testThread" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify - 2017.08.31 at 11h 30m 28s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestThread_testThread - 2017.08.28 at 18h 57m 21s.xml">
-      <configuration name="TestThread.testThread" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify_(1) - 2017.08.31 at 10h 37m 08s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestThread_testThread - 2017.08.28 at 19h 07m 31s.xml">
-      <configuration name="TestThread.testThread" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify_(2) - 2017.08.31 at 10h 37m 59s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestThread_testThread - 2017.08.28 at 19h 08m 14s.xml">
-      <configuration name="TestThread.testThread" configurationId="TestNG" />
+    <history-entry file="SimpleWaitAndNotify_testWaitAndNotify_(3) - 2017.08.31 at 10h 39m 33s.xml">
+      <configuration name="SimpleWaitAndNotify.testWaitAndNotify (3)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8715000" />
+    <option name="totallyTimeSpent" value="23330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="23" width="1440" height="827" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2892768" sideWeight="0.50574714" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281471" sideWeight="0.49425286" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6097257" sideWeight="0.49712643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25431034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27155173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -529,6 +641,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.49137932" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -540,20 +653,255 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/TestThread.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="26640">
+          <caret line="1953" column="7" lean-forward="false" selection-start-line="1953" selection-start-column="7" selection-end-line="1953" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#Thread#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#208#332#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#494#699#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/lock/ReadAndWriteLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="88" column="30" lean-forward="false" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newFixedThreadPool#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newFixedThreadPool#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newSingleThreadExecutor#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newSingleThreadExecutor#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newCachedThreadPool#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newCachedThreadPool#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newScheduledThreadPool#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newScheduledThreadPool#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#unconfigurableExecutorService#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#unconfigurableScheduledExecutorService#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#defaultThreadFactory#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#privilegedThreadFactory#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#callable#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#callable#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#callable#2;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#callable#3;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#privilegedCallable#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18525">
+          <caret line="1379" column="6" lean-forward="false" selection-start-line="1379" selection-start-column="6" selection-end-line="1379" selection-end-column="6" />
+          <folding>
+            <element signature="docComment;method#ThreadPoolExecutor#1;class#ThreadPoolExecutor#0" expanded="false" />
+            <element signature="docComment;method#ThreadPoolExecutor#2;class#ThreadPoolExecutor#0" expanded="false" />
+            <element signature="docComment;method#ThreadPoolExecutor#3;class#ThreadPoolExecutor#0" expanded="false" />
+            <element signature="docComment;method#execute#0;class#ThreadPoolExecutor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/lock/ReenterLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="79" column="55" lean-forward="false" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18600">
+          <caret line="1240" column="35" lean-forward="false" selection-start-line="1240" selection-start-column="35" selection-end-line="1240" selection-end-column="35" />
+          <folding>
+            <element signature="docComment;class#Thread#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/chapter3/NoVisibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/SimpleWaitAndNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/JoinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18600">
+          <caret line="1240" column="35" lean-forward="false" selection-start-line="1240" selection-start-column="35" selection-end-line="1240" selection-end-column="35" />
+          <folding>
+            <element signature="docComment;class#Thread#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/chapter3/NoVisibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/SimpleWaitAndNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/JoinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -566,10 +914,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="8715">
+          <caret line="732" column="7" lean-forward="true" selection-start-line="732" selection-start-column="7" selection-end-line="732" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#Thread#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -578,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="537" column="15" lean-forward="false" selection-start-line="537" selection-start-column="15" selection-end-line="537" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,17 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="123" column="37" lean-forward="false" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#249#257#0" expanded="false" />
-            <element signature="e#803#811#0" expanded="false" />
-            <element signature="e#1335#1343#0" expanded="false" />
-            <element signature="e#1689#1697#0" expanded="false" />
-            <element signature="e#1992#2000#0" expanded="false" />
-            <element signature="e#2290#2306#0" expanded="false" />
-            <element signature="e#2587#2603#0" expanded="false" />
-            <element signature="e#3230#3246#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,11 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="157" column="6" lean-forward="false" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
-          <folding>
-            <element signature="docComment;class#Arrays#0" expanded="false" />
-            <element signature="docComment;field#MIN_ARRAY_SORT_GRAN#0;class#Arrays#0" expanded="false" />
-            <element signature="docComment;class#NaturalOrder#0;class#Arrays#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,38 +967,185 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection_thread/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/TestThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/chapter3/NoVisibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/SimpleWaitAndNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/JoinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/ArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="62" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="35" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#551#716#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#208#332#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#494#699#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/lock/ReadAndWriteLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="88" column="30" lean-forward="false" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newFixedThreadPool#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newFixedThreadPool#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newSingleThreadExecutor#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newSingleThreadExecutor#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newCachedThreadPool#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newCachedThreadPool#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newScheduledThreadPool#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#newScheduledThreadPool#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#unconfigurableExecutorService#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#unconfigurableScheduledExecutorService#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#defaultThreadFactory#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#privilegedThreadFactory#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#callable#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#callable#1;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#callable#2;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#callable#3;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#privilegedCallable#0;class#Executors#0" expanded="false" />
+            <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18525">
+          <caret line="1379" column="6" lean-forward="false" selection-start-line="1379" selection-start-column="6" selection-end-line="1379" selection-end-column="6" />
+          <folding>
+            <element signature="docComment;method#ThreadPoolExecutor#1;class#ThreadPoolExecutor#0" expanded="false" />
+            <element signature="docComment;method#ThreadPoolExecutor#2;class#ThreadPoolExecutor#0" expanded="false" />
+            <element signature="docComment;method#ThreadPoolExecutor#3;class#ThreadPoolExecutor#0" expanded="false" />
+            <element signature="docComment;method#execute#0;class#ThreadPoolExecutor#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="732" column="7" lean-forward="true" selection-start-line="732" selection-start-column="7" selection-end-line="732" selection-end-column="7" />
+        <state relative-caret-position="26640">
+          <caret line="1953" column="7" lean-forward="false" selection-start-line="1953" selection-start-column="7" selection-end-line="1953" selection-end-column="7" />
           <folding>
             <element signature="docComment;class#Thread#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_thread/java/cn/meijunjie/thread/lock/ReenterLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="79" column="55" lean-forward="false" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
