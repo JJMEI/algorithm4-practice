@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08fdf72c-e615-4e0e-932a-ebfcb9832e17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../colectoion/collection_thread/java/cn/meijunjie/thread/ArrayListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../colectoion/collection_thread/java/cn/meijunjie/thread/HashMapTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../colectoion/collection_thread/java/cn/meijunjie/thread/ThreadPoolTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../colectoion/collection_thread/java/cn/meijunjie/thread/chapter3/NoVisibility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../colectoion/collection_thread/java/cn/meijunjie/thread/lock/ReadAndWriteLockTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../colectoion/collection_thread/java/cn/meijunjie/thread/lock/ReenterLockTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatissourcecode/src/main/java/cn/peter/mybatis/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatissourcecode/src/main/java/cn/peter/mybatis/hello.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_35.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/meijunjie/spider/common/GoodsInfoUtils.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/meijunjie/spider/pool/SpiderThreadPool.java" />
@@ -18,22 +10,14 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cn/meijunjie/spider/test/common/TestHttpClientUtils.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cn/meijunjie/spider/test/service/TestSpiderServiceImpl.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../colectoion/target/classes/cn/meijunjie/thread/TestThread$2.class" afterPath="$PROJECT_DIR$/../colectoion/target/classes/cn/meijunjie/thread/TestThread$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../colectoion/target/classes/cn/meijunjie/thread/TestThread.class" afterPath="$PROJECT_DIR$/../colectoion/target/classes/cn/meijunjie/thread/TestThread.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybatissourcecode/ehcache_auto_created2108021439814174323diskstore/cn%002emeijunjie%002etest%002e%0055ser%004dapper.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybatissourcecode/ehcache_auto_created6217245867543412330diskstore/cn%002emeijunjie%002etest%002e%0055ser%004dapper.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybatissourcecode/ehcache_auto_created8358952827424820396diskstore/cn%002emeijunjie%002etest%002e%0055ser%004dapper.data" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis" afterPath="$PROJECT_DIR$/../mybatis" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/meijunjie/spider/common/HttpClientUtils.class" afterPath="$PROJECT_DIR$/target/classes/cn/meijunjie/spider/common/HttpClientUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cn/meijunjie/spider/test/dao/TestGoodsInfoDao.class" afterPath="$PROJECT_DIR$/target/test-classes/cn/meijunjie/spider/test/dao/TestGoodsInfoDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cn/meijunjie/spider/test/service/TestSpiderServiceImpl.class" afterPath="$PROJECT_DIR$/target/test-classes/cn/meijunjie/spider/test/service/TestSpiderServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../colectoion/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../colectoion/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../colectoion/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../colectoion/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../colectoion/collection_thread/resources/logback.xml" afterPath="$PROJECT_DIR$/../colectoion/collection_thread/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../colectoion/target/classes/logback.xml" afterPath="$PROJECT_DIR$/../colectoion/target/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatissourcecode/target/classes/org/apache/ibatis/session/defaults/DefaultSqlSession$StrictMap.class" afterPath="$PROJECT_DIR$/../mybatissourcecode/target/classes/org/apache/ibatis/session/defaults/DefaultSqlSession$StrictMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatissourcecode/target/classes/org/apache/ibatis/session/defaults/DefaultSqlSession.class" afterPath="$PROJECT_DIR$/../mybatissourcecode/target/classes/org/apache/ibatis/session/defaults/DefaultSqlSession.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatissourcecode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mybatissourcecode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatissourcecode/src/main/java/cn/meijunjie/mybatissourcecode/DefaultSqlSession.java" afterPath="$PROJECT_DIR$/../mybatissourcecode/src/main/java/cn/meijunjie/mybatissourcecode/DefaultSqlSession.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatissourcecode/src/main/java/cn/meijunjie/mybatissourcecode/SqlSession.java" afterPath="$PROJECT_DIR$/../mybatissourcecode/src/main/java/cn/meijunjie/mybatissourcecode/SqlSession.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sql/spider.sql" afterPath="$PROJECT_DIR$/src/main/resources/sql/spider.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sql/spider.sql" afterPath="$PROJECT_DIR$/target/classes/sql/spider.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -191,7 +175,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="827" />
@@ -726,8 +710,7 @@
     <option name="totallyTimeSpent" value="29548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="827" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -736,7 +719,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39943343" sideWeight="0.50574714" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34844193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34844193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1756374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1131,6 +1114,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="463" column="0" lean-forward="false" selection-start-line="463" selection-start-column="0" selection-end-line="463" selection-end-column="0" />
+          <folding>
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,6 +1124,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="826" column="0" lean-forward="false" selection-start-line="826" selection-start-column="0" selection-end-line="826" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

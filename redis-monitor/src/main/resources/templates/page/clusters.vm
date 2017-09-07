@@ -1,0 +1,15 @@
+
+#renderClusters($clusters)
+
+
+#macro(renderClusters $clusters)
+#foreach($cluster in $clusters)
+<div class="callout callout-normal">
+	<h4>$!{cluster.name}</h4>
+	<p>
+		#foreach($node in $cluster.nodes)<a href="/monitor/$!{node.host}:$!{node.port}" class="btn btn-default btn-flat">#if($!{node.role()}=="master")<span class="label label-primary">$!{node.role()}</span>#else<span class="label bg-green">$!{node.role()}</span>#end $!{node.host}:$!{node.port}</a> #end
+		#if($cluster.children && $cluster.children.size() > 0)#renderClusters($cluster.children)#end
+	</p>
+</div>
+#end
+#end
